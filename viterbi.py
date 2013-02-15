@@ -1,5 +1,9 @@
 from math import log
 
+# framework basically ripped off from wikipedia:
+# http://en.wikipedia.org/wiki/Viterbi_algorithm
+# and adapted for our purposes
+
 states = ('non_coding',
           'start_codon1','start_codon2','start_codon3',
           'coding1','coding2','coding3',
